@@ -7,7 +7,6 @@ t.shape('turtle')
 
 def message(input):
     print(input)
-    input = Turtle
 message("Hello Class")
 
 
@@ -37,6 +36,5 @@ def right():
     t.left(135)
     t.forward(142)
 right()
-
 
 turtle.done()
