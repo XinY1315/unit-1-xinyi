@@ -4,7 +4,7 @@ t = Turtle()
 
 t.shape('turtle')
 """ t.forward(200) """
-
+""" 
 def message(input):
     print(input)
 message("Hello Class")
@@ -36,5 +36,23 @@ def right():
     t.left(135)
     t.forward(142)
 right()
+ """
+""" def rectangle():
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+rectangle() """
+
+def triangle():
+    t.forward(90)
+    t.left(125)
+    t.forward(90)
+    t.left(125)
+    t.forward(90)
+triangle()
 
 turtle.done()

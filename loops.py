@@ -2,6 +2,10 @@ import turtle
 from turtle import *
 t = Turtle()
 
+#i is an incrementor
+# -= and += means subtract or add what's on the right to the og
+
+
 sidelength = 100
 rotate = 90
 def square(x,y):
@@ -10,15 +14,5 @@ def square(x,y):
         t.left(y)
 square(100,90)
 
-def doubleSquares(iRange):
-    length = 25
-    for i in range(iRange):
-        square(length, 90)
-        length = length * 2
-doubleSquares(5)
-
-def addsquares(iRange):
-    length = 25
-    for i in range(iRange)
-        square(length, 90):
-        
+def triangle(x,y):
+    for i in range(3):
