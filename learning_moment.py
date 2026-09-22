@@ -20,3 +20,7 @@ amt_two = 99.99 """
 #boolean
 """ x = True
 y = False """
+
+bill = int(input("how much was the bill?"))
+print(bill + 20)
+#INPUT MEANS STRING 
