@@ -27,7 +27,8 @@ square(5,10) """
 #this made a circle so let that sink in
 
 def sixtysquare(x,y):
-    for i in range(240):
+    for i in range(60):
         t.forward(100)
         t.right(90)
-sixtysquare(100,90)
+t.left(5)
+sixtysquare(100, 90)
