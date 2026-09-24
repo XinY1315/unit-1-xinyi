@@ -9,6 +9,8 @@ def message(input):
     print(input)
 message("Hello Class")
 
+message.done
+
 
 def square(x):
     t.forward(x)

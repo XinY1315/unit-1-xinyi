@@ -58,3 +58,9 @@ if age > 65:
     print("senior")
 elif(age > 18):
     print("adult")
+
+x = "Elyse"
+print(x.split("y"))
+#creates a list when square bracket
+#the things in pink parentheses are excluded
+print(len(x.split(" ")))
