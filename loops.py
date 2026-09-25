@@ -67,10 +67,20 @@ addsquares(5) """
             t.left(90)
 sixtysquare(60) """
 
-sidelength = 100
+""" sidelength = 100
 rotate = 65
 def star(iRange):
-    for i in range(6):
+    for i in range(5):
         t.forward(100)
-        t.right(100)
-star(6)
+        t.right(144)
+star(5) """
+
+def sixtystar(iRange):
+    length = 5
+    for i in range(60):
+        t.right(5)
+        length += 5 
+        for i in range(5):
+            t.forward(length)
+            t.left(144)
+sixtystar(60)
