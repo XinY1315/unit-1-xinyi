@@ -72,5 +72,5 @@ rotate = 65
 def star(iRange):
     for i in range(6):
         t.forward(100)
-        t.right(120)
+        t.right(100)
 star(6)
